@@ -1524,3 +1524,256 @@ align-content: center; }
         color: #ff5e15;
         font-size: 11px;
     }
+
+/*------------------------
+	About section
+--------------------------*/
+.about-section,
+.team-section {
+	background: #ff5e15;
+	position: relative;
+	z-index: 2;
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 3;
+	background-image: url("../images/overlay.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*Card Section*/
+.card-section {
+	position: relative;
+	padding-bottom: 100px;
+	z-index: 5;
+}
+
+.lab-card {
+	position: relative;
+	margin-top: -50px;
+	padding: 50px 25px;
+	text-align: center;
+	background: #f5faf8;
+	-webkit-box-shadow: 0 0 8px rgba(74, 74, 74, 0.1);
+	        box-shadow: 0 0 8px rgba(74, 74, 74, 0.1);
+	-webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.lab-card .icon {
+	margin-bottom: 30px;
+	font-size: 70px;
+	-webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.lab-card h2 {
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #2b1640;
+	margin-bottom: 30px;
+	-webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.lab-card p {
+	color: #6c6e7e;
+	line-height: 30px;
+	-webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.lab-card:hover {
+	background: #2be6ab;
+}
+
+.lab-card:hover h2,
+.lab-card:hover p,
+.lab-card:hover .icon {
+	color: #fff;
+}
+.section-title {
+	text-align: center;
+	margin-bottom: 90px;
+	padding-top: 50px;
+	position: relative;
+}
+
+/* .section-title h2 {
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 400;
+} */
+
+/* .section-title h2 span {
+	background: #2be6ab;
+	padding: 0 3px 5px;
+	display: inline-block;
+	color: #0b1033;
+} */
+
+/* .section-title:after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 0;
+	width: 5px;
+	height: 30px;
+	margin-left: -2.5px;
+	background: #2be6ab;
+} */
+
+.section-title.left {
+	text-align: left;
+}
+
+.section-title.left:after {
+	left: 0;
+	margin-left: 0;
+}
+
+.section-title.dark h2 {
+	color: #0b1033;
+}
+
+/*------------------------
+	Features Section
+--------------------------*/
+.features .icon-box .icon {
+	color: #2be6ab;
+	margin-top: -10px;
+}
+
+.features .icon-box:last-child {
+	margin-bottom: 0;
+}
+
+.features .icon-box {
+	margin-bottom: 90px;
+}
+
+.service {
+	margin-bottom: 90px;
+}
+
+.service,
+.icon-box {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+}
+
+.service .icon,
+.icon-box .icon {
+	font-size: 40px;
+	margin-right: 30px;
+}
+
+.service .service-text h2,
+.service .icon-box-text h2,
+.icon-box .service-text h2,
+.icon-box .icon-box-text h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+
+.service .service-text p,
+.service .icon-box-text p,
+.icon-box .service-text p,
+.icon-box .icon-box-text p {
+	font-size: 15px;
+}
+
+.service.light h2,
+.service.light p,
+.service.light .icon,
+.icon-box.light h2,
+.icon-box.light p,
+.icon-box.light .icon {
+	color: #fff;
+}
+
+.service.left,
+.icon-box.left {
+	text-align: right;
+}
+
+.service.left .icon,
+.icon-box.left .icon {
+	margin-left: 30px;
+	margin-right: 0;
+}
+.site-btn {
+	font-family: "Oswald", sans-serif;
+	font-size: 15px;
+	color: #ffffff;
+	display: inline-block;
+	text-transform: uppercase;
+	background: #ff5e15;
+	padding: 15px 50px;
+	font-weight: 500;
+	letter-spacing: 1px;
+  min-width: 170px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+	text-align: center;
+	border: none;
+}
+
+.site-btn.btn-2 {
+	background: #6a23b5;
+	color: #fff;
+	font-weight: 400;
+}
+
+.site-btn.btn-3 {
+	background: transparent;
+	color: #6a23b5;
+	border: 1px solid #6a23b5;
+	padding: 14px 50px;
+}
+
+.site-btn:hover,
+.site-btn:focus {
+	text-decoration: none;
+	outline: none;
+}
+.intro-video {
+	-webkit-transform: translateY(50%);
+	    -ms-transform: translateY(50%);
+	        transform: translateY(50%);
+	margin-top: -90px;
+}
+
+.intro-video img {
+	-webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.35);
+	        box-shadow: 0 0 50px rgba(0, 0, 0, 0.35);
+}
+
+.intro-video a {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 50%;
+	top: 50%;
+	margin-left: -30px;
+	margin-top: -30px;
+	color: #6a23b5;
+	background: #2be6ab;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 5px;
+}
