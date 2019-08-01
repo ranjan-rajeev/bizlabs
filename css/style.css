@@ -1603,9 +1603,9 @@ align-content: center; }
 	color: #fff;
 }
 .section-title {
-	text-align: center;
-	margin-bottom: 90px;
-	padding-top: 50px;
+	text-align: left;
+	margin-bottom: 20px;
+	padding-top: 25px;
 	position: relative;
 }
 
@@ -1757,23 +1757,23 @@ align-content: center; }
 	margin-top: -90px;
 }
 
-.intro-video img {
+/* .intro-video img {
 	-webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.35);
 	        box-shadow: 0 0 50px rgba(0, 0, 0, 0.35);
-}
+} */
 
 .intro-video a {
 	position: absolute;
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	left: 50%;
 	top: 50%;
-	margin-left: -30px;
-	margin-top: -30px;
+	margin-left: 0px;
+	margin-top: 0px;
 	color: #6a23b5;
-	background: #2be6ab;
+  background: #ffffff;
 	border-radius: 50%;
 	text-align: center;
-	padding-top: 20px;
-	padding-left: 5px;
+	padding-top: 8px;
+	padding-left: 2px;
 }
