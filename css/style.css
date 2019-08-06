@@ -548,7 +548,7 @@ h1, h2, h3, h4, h5,
     .sticky-wrapper.is-sticky .site-navbar .site-menu > li {
       display: inline-block; }
       .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
-        padding: 10px 20px;
+        padding: 10px 10px;
         display: inline-block;
         text-decoration: none !important; }
         .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover {
@@ -957,7 +957,7 @@ h1, h2, h3, h4, h5,
       text-decoration: underline; }
   .footer .copyright {
     color: #fff;
-    padding-top: 7rem;
+    /* padding-top: 7rem; */
     text-align: center; }
 
 .ftco-subscribe-1 {
